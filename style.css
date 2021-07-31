@@ -1,0 +1,59 @@
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: white;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    text-transform: upercase;
+    font-weight: 900;
+    color: #683aa4
+}
+
+nav ul li a {
+    color: #a9a9a9;
+    font-size: 22px;
+    margin: auto 10px;
+}
+
+section {
+    padding: top 50px;
+    padding: bottom 50px;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color:blue
+    text-align: left;
+    margin: bottom 20px;
+}
+
+section p {
+    font-size:16px;
+    font-weight: 300;
+}
+
+button {
+    max-width: 50%;
+    border-radius: 50px !important
+}
+                
+#hero.col {
+ justify-content: center;
+ flex-direction: column;
+ display: flex;
+}
+
+#hero img{
+    max-width: 130% !important;
+    width: 130%;
+}
